@@ -9,8 +9,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build image
-        run: docker build . -t tiservices/open-webui-vertebrai:latest
+        run: docker build . -t vertebrai/open-webui:latest
       - name: Push image
         run: |
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          docker push tiservices/open-webui-vertebrai:latest
+          docker push vertebrai/open-webui:latest
