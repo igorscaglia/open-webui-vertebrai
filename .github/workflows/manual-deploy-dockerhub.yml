@@ -1,7 +1,6 @@
-name: Main Pull Request
+name: Manual Deploy on Docker Hub
 on:
-  pull_request:
-    branches: [ "main" ]
+  [workflow_dispatch]
 jobs:
   publish_images:
     runs-on: ubuntu-latest
