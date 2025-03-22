@@ -1,8 +1,8 @@
 [project]
 name = "open-webui"
-description = "Open WebUI"
+description = "Vertebrai ChatAI"
 authors = [
-    { name = "Timothy Jaeryang Baek", email = "tim@openwebui.com" }
+    { name = "Vetebrai", email = "contato@vertebrai.com.br" }
 ]
 license = { file = "LICENSE" }
 dependencies = [
